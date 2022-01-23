@@ -1,0 +1,340 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #000;
+    color: white;
+}
+@font-face {
+    font-family: netflix-sans-regular;
+    src: url(../font/NetflixSansRegular.ttf);
+}
+.root{
+    width: 100%;
+    background-size: cover;
+    background-image:radial-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)),url("../images/NetflixBg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.nav{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     height: 10vh;
+     padding-left: 3vw;
+     padding-right: 2vw;
+     padding-top: 1%;
+    }
+.img-logo{
+    width: 6.75rem;
+    height: 2rem;
+    color:#e50914;
+}
+.sign-in{
+    background-color:#e50914;
+    color: white;
+    padding:8px 20px 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;  
+    text-decoration: none;
+}
+.container{
+width: 100%;
+height: 90vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-bottom: 8px solid #222;
+}
+.title-container{
+color: white;
+text-align: center;
+width: 43%;
+font-family: netflix-sans-regular;
+}
+.main-title{
+   margin-bottom: 14px;
+   font-size: 3.5em;
+}
+.main-subtitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+.para{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+.main-email-container{
+    width:50%;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-email-container-input{
+outline: none;
+border: none;
+padding: 20px 10px;
+font-size: 1em;
+cursor: text;
+}
+.btn-get-started{
+    background-color: #e50914;
+    cursor: pointer;
+    height:fit-content;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 42px;
+    color: white;
+    font-size: 1.4rem;
+}
+.root-part{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 4rem;
+    border-bottom: 8px solid #222;
+}
+.talk{
+    width:40%;
+}
+.heading1{
+    color: white;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    font-family: netflix-sans-regular;
+}
+.heading1-para{
+    color: white;
+    font-size: 1.7rem;
+    font-family: netflix-sans-regular;
+}
+.img1{
+ position: relative;
+ width: 45%; 
+}
+.img1 img{
+    z-index: 2;
+    position:relative;
+    width: 100%;
+}
+.img1 video{
+        z-index: 1;
+        left: 13.2%;
+        position:absolute;
+        width: 73%;
+        margin-top: 15%;
+}
+.text{
+    color:white;
+    margin-top: 10%;
+}
+.talk-2{
+    width:40%;
+}
+.heading2{
+    color: white;
+    font-size: 2.8rem;
+    letter-spacing: 2px;
+    font-family: netflix-sans-regular;
+}
+.heading2-para{
+    color: white;
+    font-size: 1.7rem;
+    font-family: netflix-sans-regular;
+}
+.img2{
+    width: 50%;
+    margin-top: 1%;
+   }
+.img21{
+   width: 85%;
+}
+
+.box{
+    border: 2px solid rgba(225,225,225,0.25);
+    background-color: #000;
+    border-radius: 10px;
+    width: 55%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    position: relative;
+    margin-top: -21%;
+    left: 12%;
+}
+.box a{
+    text-decoration: none;
+    color: blue;
+}
+.boxshot{
+    width: 15%;
+}
+.box p{
+    margin-left: 5%;
+    margin-top: 3%;
+    display: block;
+}
+.download-gif{
+    width:3em;
+    height:3em;
+    position: absolute;
+    right: 0%;
+}
+.nav-2{
+    position: relative;
+    border: 1px solid#aaa;
+    left: 450px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    }
+.lang-selector{
+    border: 1px solid #aaa;
+    background: none;
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 8px 2px;
+}
+.lang-selector:focus{
+    outline: none;
+}
+.lang-selector option{
+    background-color:#aaa;
+    font-size: 18px;
+}
+.img3{
+    position: relative;
+    width: 45%; 
+   }
+.img3 .video3{
+z-index: -1;
+position: absolute;
+top:10%;
+width: 72%;
+left: 120px;
+}
+.img4{
+    position: relative;
+    width: 50%;
+}
+.img4 h1{
+    font-size: 1.625rem;
+}
+.img4 img{
+    width: 85%;
+    margin:5% auto
+}
+.FAQ-title{
+    display: flex;
+    width: 60%;
+    flex-direction:row;
+    justify-content: space-between;
+    padding:25px;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 23px;
+    background-color: #303030;
+    border: 1px solid #303030;
+    color: white;
+    margin-bottom: 5px;
+}
+.FAQ-heading{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3%;
+}
+.email-address-container{
+position: relative;
+text-align: center;
+width: 100%;
+border-color: #000;
+font-weight: 400;
+border-bottom: 8px solid #222;
+}
+.email-address-container p{
+ font-size: 23px;
+ font-family: Arial, Helvetica, sans-serif;
+ padding: 0 10%;
+ padding-top: 4%;
+}
+.email-address-container input{
+    min-width: 450px;
+    height: 58px;
+    padding-left: 1%;
+    border-color: #000;
+    margin-top: 0.5%;
+    outline: none;
+    border-radius: 2px;
+    font-size: 15px;
+}
+.email-address-container button{
+    min-width:300px;
+    height: 60px;
+    border: none;
+    background-color: #e50914;
+    color: white;
+    margin-left: -0.35%;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 6%;
+    cursor: pointer;
+}
+footer{
+    padding-top: 5%;
+    color: #757575;
+    font-family: netflix-sans-regular;
+}
+footer .q{
+    margin-left: 18.5%;
+    padding-bottom:1%;
+    font-size: 1rem;
+}
+footer .content{
+    max-width: 1350px;
+    margin: 0px 80px;
+    display:flex;
+    padding:20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+footer .content .box2{
+    width: 15%;
+    transition: all 0.4s ease;
+}
+footer .content p{
+    text-align: justify;
+}
+footer .content .middle select{
+    background-color: transparent;
+    padding: 8px;
+    color: white;
+    border: 1px solid gray;
+}
+footer .content .middle select option{
+background-color: #000;
+}
+footer .content .middle{
+    padding-left: 80px;
+}
+footer .content .middle a{
+    line-height: 32px;
+    text-decoration: none;
+    color: #757575;
+    font-size: 13px;
+}
+footer .content .middle a:hover{
+    text-decoration: underline;
+}    
