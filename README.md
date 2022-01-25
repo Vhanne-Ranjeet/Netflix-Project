@@ -1,2 +1,2 @@
 # Netflix-Project
-Netflix project using HTML and CSS
+Demo: https://vhanne-ranjeet.github.io/Netflix-Project/
